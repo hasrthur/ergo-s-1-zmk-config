@@ -64,12 +64,12 @@
             //                                                         | END  |         | PGDN |
 
             bindings = <
-&mo 1       &kp N1       &kp N2           &kp N3        &kp N4             &kp N5                                               &kp N6     &kp N7            &kp N8             &kp N9       &kp N0          &none
-&kp ESCAPE  &kp Q        &kp W            &kp E         &kp R              &kp T                                                &kp Y      &kp U             &kp I              &kp O        &kp P           &kp EQUAL
-&kp TAB     &hrl LCMD A  &hrl LEFT_ALT S  &hrl LCTRL D  &hrl LEFT_SHIFT F  &kp G                                                &kp H      &hrr RSHIFT J     &hrr LCTRL K       &hrr LALT L  &hrr LGUI SEMI  &kp SQT
-&none       &kp Z        &kp X            &kp C         &kp V              &kp B      &none        &none  &none  &none          &kp N      &kp M             &kp COMMA          &kp PERIOD   &kp SLASH       &kp MINUS
-            &none        &none            &kp GRAVE     &kp BACKSLASH      &kp ENTER  &lt 3 SPACE  &none  &none  &bkspcapsword  &lt 2 DEL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none        &none
-                                                                                                   &none  &none
+&mo 1       &kp N1        &kp N2           &kp N3           &kp N4             &kp N5                                               &kp N6     &kp N7            &kp N8             &kp N9       &kp N0           &none
+&kp ESCAPE  &kp Q         &kp W            &kp E            &kp R              &kp T                                                &kp Y      &kp U             &kp I              &kp O        &kp P            &kp EQUAL
+&kp TAB     &hrl LCTRL A  &hrl LEFT_ALT S  &hrl LEFT_GUI D  &hrl LEFT_SHIFT F  &kp G                                                &kp H      &hrr RSHIFT J     &hrr LEFT_GUI K    &hrr LALT L  &hrr LCTRL SEMI  &kp SQT
+&none       &kp Z         &kp X            &kp C            &kp V              &kp B      &none        &none  &none  &none          &kp N      &kp M             &kp COMMA          &kp PERIOD   &kp SLASH        &kp MINUS
+            &none         &none            &kp GRAVE        &kp BACKSLASH      &kp ENTER  &lt 3 SPACE  &none  &none  &bkspcapsword  &lt 2 DEL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none        &none
+                                                                                                       &none  &none
             >;
         };
 
